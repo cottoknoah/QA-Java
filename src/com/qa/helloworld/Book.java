@@ -7,6 +7,7 @@ public class Book {
     public int year;
     public String publisher;
     public double price;
+    public boolean isFavorite;
 
     // Constructor
     public Book(String title,String author,int year,String publisher,double price)
@@ -49,13 +50,20 @@ public class Book {
         this.publisher = publisher;
     }
 
-    public double getprice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setprice(double price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
+    public boolean isFavorite() {
+        return isFavorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        isFavorite = favorite;
+    }
 }
 
