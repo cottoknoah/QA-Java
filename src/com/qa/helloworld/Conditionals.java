@@ -2,6 +2,8 @@ package com.qa.helloworld;
 
 public class Conditionals {
 
+//    Weekday Switch Case Example
+
     public static void main(String[] args) {
         int day = 4;
 
