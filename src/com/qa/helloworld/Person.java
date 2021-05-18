@@ -27,7 +27,15 @@ public class Person {
         return this.name + " says: " + msg;
     }
 
-    public int walk() {
-        return walkSpeed;
+    public String getName(){
+        return this.name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void sayHello(){
+        System.out.println(this.name + " says hi!");
     }
 }
