@@ -2,14 +2,16 @@ package com.qa.helloworld;
 
 public class HelloWorld {
 
-    public static void printMessage(String var){
-        System.out.println("Hello World");
+    public static String message = "Hello World!";
+
+    public static void method1() {
+        System.out.println(message);
     }
 
     public static void main(String[] args) {
-//        System.out.println("");
-//    return printMessage("");
+        method1();
     }
+
 
 
 }
