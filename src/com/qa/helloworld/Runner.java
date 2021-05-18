@@ -31,7 +31,7 @@ public class Runner {
         int x = Integer.parseInt("12");
 
         String var = "Hello World.";
-        String var = new String("Hello World 2");
+//        String var = new String("Hello World 2");
 
         System.out.println();
 
