@@ -40,6 +40,5 @@ public class StringDemo {
         //Searches a string for a specified value and then replaces it with another value
         System.out.println(str1.replace("SoMe", "SOMEREALLYFUN"));  //output will be: ThIsIsSOMEREALLYFUNTeXt
 
-
-    }
+       }
 }
