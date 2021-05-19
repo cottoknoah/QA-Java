@@ -1,22 +1,38 @@
 package com.qa.helloworld;
 
+import java.util.ArrayList;
+import java.util.List;
+
 //Class has a scope
 public class Runner {
 
-    public static String x = "cat";
-    public static Object y;
-
     public static void main(String[] args){
+        // START
+        System.out.println("APP START");
 
-        //Primitives Data Types
-        //int, boolean, short, long, float, double, char, byte
+        List<Integer> arrayList = new ArrayList<>();
 
-        // Wrapper classes, complex data type, always capital
-        // String, Object
-        //RULES: no default value; null
+        int x =1;
 
-        //Integer, Boolean, Short, Long, Float, Double, Char, Byte
+        arrayList.add(x++);
+        arrayList.add(x++);
+        arrayList.add(x++);
+        arrayList.add(x++);
 
+        for(Integer handle : arrayList) {
+            System.out.println(handle);
+        }
+
+        System.out.println("APP END");
+        //ENDS
+/*
+        Primitives Data Types
+        int, boolean, short, long, float, double, char, byte
+        Wrapper classes, complex data type, always capital
+        String, Object
+        RULES: no default value; null
+
+        Integer, Boolean, Short, Long, Float, Double, Char, Byte
         Integer y = 0;
         Boolean z = false;
         Short a = 0;
@@ -26,17 +42,18 @@ public class Runner {
         Character e = 'a';
         Byte f = 0;
 
-//       The .equals() method compared the contents of an object
+        The .equals() method compared the contents of an object
 
         int x = Integer.parseInt("12");
 
         String var = "Hello World.";
-//        String var = new String("Hello World 2");
-
+        String var = new String("Hello World 2");
         System.out.println();
-
+*/
 
     }
+
+
 
 
 
