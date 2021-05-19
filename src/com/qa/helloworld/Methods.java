@@ -20,6 +20,4 @@ public class Methods {
             Methods myObj = new Methods(); // Create an object of Main
             myObj.myPublicMethod(); // Call the public method on the object
         }
-    }
-
 }
