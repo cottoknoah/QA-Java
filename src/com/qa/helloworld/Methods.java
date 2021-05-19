@@ -2,20 +2,24 @@ package com.qa.helloworld;
 
 public class Methods {
 
-    public static void start(){
-        task1();
-        //tak
-    }
+          // Static method
+        static void myStaticMethod() {
+            System.out.println("Static methods can be called without creating objects");
+        }
 
+        // Public method
+        public void myPublicMethod() {
+            System.out.println("Public methods must be called by creating objects");
+        }
 
-    private static void task1() {
-        /*
-         *
-         */
-//        str1 = str1.toUpperCase();
-//        str2 = str2.toUpperCase();
-//        String result = str2.concat(", ") + str1;
-//        System.out.printnl(" ");
+        // Main method
+        public static void main(String[] args) {
+            myStaticMethod(); // Call the static method
+            // myPublicMethod(); This would compile an error
+
+            Methods myObj = new Methods(); // Create an object of Main
+            myObj.myPublicMethod(); // Call the public method on the object
+        }
     }
 
 }
