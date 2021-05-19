@@ -2,6 +2,7 @@ package com.qa.helloworld;
 
 public class Book {
 
+    //instance variables
     public String title;
     public String author;
     public int year;
@@ -10,12 +11,13 @@ public class Book {
     public boolean isFavorite;
 
     // Constructor
-    public Book(String title,String author,int year,String publisher,double price)
+    public Book(String title,String author,int year,String publisher,double price, boolean isFavorite)
     {   this.title=title;
         this.author=author;
         this.year=year;
         this.publisher=publisher;
         this.price=price;
+        this.isFavorite=isFavorite;
     }
 
     public String getTitle() {
@@ -65,5 +67,11 @@ public class Book {
     public void setFavorite(boolean favorite) {
         isFavorite = favorite;
     }
+
+    public String toString()
+    {
+        return "This book details are: " + title + ", " + author + ", " + year + ", " + publisher + ", " + price + ", " + isFavorite;
+    }
+
 }
 
