@@ -20,6 +20,16 @@ public class Book {
         this.isFavorite=isFavorite;
     }
 
+    // Default Constructor -- constructor that takes in no arguments
+    public Book()
+    {   this.title= "Eragon";
+        this.author= "C.P.";
+        this.year=2002;
+        this.publisher="Steve Jobs";
+        this.price=24.99;
+        this.isFavorite=isFavorite();
+    }
+
     public String getTitle() {
         return title;
     }
@@ -68,9 +78,14 @@ public class Book {
         isFavorite = favorite;
     }
 
-    public String toString()
-    {
+    public String toString() {
         return "This book details are: " + title + ", " + author + ", " + year + ", " + publisher + ", " + price + ", " + isFavorite;
+    }
+
+    public void read(Book item) {
+         // item.open(); // has to open the book
+        // if() // its open, read book
+        System.out.println(this.title + " reads the book titled: " + item.title);
     }
 
 }

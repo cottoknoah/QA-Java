@@ -2,24 +2,28 @@ package com.qa.helloworld;
 
 public class Person {
 
-    public String name; //
-    public int age; //
-    public String gender; //
+    private String name; //
+    private int age; //
+    private String gender; //
     public boolean isBreathing;
-    public int walkSpeed = 30; // in feet
 
     // Constructor
-    public Person(String name, int age, String gender) {
+    public Person(String name, int age, String gender, boolean isBreathing) {
         this.name = name;
         this.age = age;
         this.gender = gender;
+        this.isBreathing=isBreathing();
+    }
+
+    // Default Constructor
+    public Person() {
     }
 
     public void read() {
         System.out.println(this.name + " is reading the book titled: {given}");
     }
 
-    public boolean isStillBreathing() {
+    public boolean isBreathing() {
         return isBreathing;
     }
 
