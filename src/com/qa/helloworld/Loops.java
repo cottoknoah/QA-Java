@@ -1,5 +1,6 @@
 package com.qa.helloworld;
 
+//QA Class Review
 
 public class Loops {
 
@@ -18,7 +19,6 @@ public class Loops {
     }
     public static void nestedForStatement() {
         for (int counter = 1; counter <= 10; counter++) {
-            // counter = 1
             for (int innerCounter = 1; innerCounter <= 10; innerCounter++) {
                 System.out.println(counter + " * " + innerCounter + " = " + (counter * innerCounter));
             }
@@ -26,7 +26,6 @@ public class Loops {
     }
     public static void forStatement() {
         // for (initialization; termination; increment)
-        // - use a counter variable
         for (int counter = 0; counter < 10; counter++) {
             System.out.println(counter);
         }
@@ -41,7 +40,6 @@ public class Loops {
         } while (playCount < maxPlays);
     }
     public static void whileStatement() {
-        // Use a boolean value (can come from a boolean expression)
         // execution stops when either;
         // - the boolean condition changes to false
         // - the conditional statement (boolean expression) changes to false
