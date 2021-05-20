@@ -5,8 +5,9 @@ public class Car extends Vehicle{
     private int seats;
     private String color;
 
-    public Car(String manufacturer, String model, int doors, int seats, String color) {
-//        super(manufacturer, model, doors);
+
+    public Car(String vehicleType, String model, boolean isParked, boolean isDriving, int tireCount, int seats, String color) {
+        super(vehicleType, model, isParked, isDriving, tireCount);
         this.seats = seats;
         this.color = color;
     }

@@ -8,7 +8,6 @@ public class Vehicle {
     private boolean isDriving;
     private int tireCount;
 
-
     public Vehicle(){
     }
 
@@ -20,7 +19,8 @@ public class Vehicle {
         this.tireCount = tireCount;
        }
 
-     public void driving() {
+
+       public void driving() {
         this.isDriving = true;
     }
 
@@ -35,5 +35,14 @@ public class Vehicle {
     public String getModel() {
         return vehicleType;
     }
+
+    public int getTireCount() {
+        return tireCount;
+    }
+
+    public void setTireCount(int tireCount) {
+        this.tireCount = tireCount;
+    }
+
 
 }
