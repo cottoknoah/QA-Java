@@ -13,6 +13,10 @@ public class Runner {
         Garage myGarage = new Garage("Knoah's Garage");
         System.out.println("Welcome to " + myGarage.getGarageName());
 
+//        List<String> vehicle = new ArrayList<>();
+//        Vehicle vehicle = new ArrayList<Vehicle>();
+
+
         Vehicle x = new Motorcycle("Motorcyle", "M", 0, 0, 1, 1);
         System.out.println("Motorcycle is parked in " + myGarage.getGarageName());
         x.parked();
