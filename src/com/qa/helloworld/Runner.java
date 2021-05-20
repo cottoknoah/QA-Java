@@ -9,20 +9,26 @@ public class Runner {
     public static void main(String[] args){
         // START
         System.out.println("APP START");
+        System.out.println("---------------");
+        Garage myGarage = new Garage("Knoah's Garage");
+        System.out.println("Welcome to " + myGarage.getGarageName());
 
-        List<Integer> arrayList = new ArrayList<>();
+        Vehicle x = new Motorcycle("Motorcyle", "M", 0, 0, 1, 1);
+        System.out.println("Motorcycle is parked in " + myGarage.getGarageName());
+        x.parked();
 
-        int x =1;
 
-        arrayList.add(x++);
-        arrayList.add(x++);
-        arrayList.add(x++);
-        arrayList.add(x++);
-
-        for(Integer handle : arrayList) {
-            System.out.println(handle);
-        }
-
+//        List<Integer> arrayList = new ArrayList<>();
+//        int x =1;
+//        arrayList.add(x++);
+//        arrayList.add(x++);
+//        arrayList.add(x++);
+//        arrayList.add(x++);
+//
+//        for(Integer handle : arrayList) {
+//            System.out.println(handle);
+//        }
+        System.out.println("---------------");
         System.out.println("APP END");
         //ENDS
 /*

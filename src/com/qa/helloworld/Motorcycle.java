@@ -9,7 +9,7 @@ public class Motorcycle extends Vehicle {
         this.hasInsurance=hasInsurance;
 
     }
-
-
-
+    //IDE generated this
+    public Motorcycle(String motorcyle, String m, int i, int i1, int tireCount, int i2) {
+    }
 }
