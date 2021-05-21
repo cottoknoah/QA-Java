@@ -14,7 +14,6 @@ public class Garage {
         super();
         this.garageName = "Knoah's Garage";
     }
-
     public Garage(String garageName) {
         this.garageName = garageName;
     }
@@ -34,7 +33,6 @@ public class Garage {
             System.out.println(counter);
         }
     }
-
 //    Garage should have methods that add Vehicle,
 //    remove Vehicle(s) (By ID, By Vehicle Type) fix Vehicle (Calculate bill) and
 //    empty the garage
@@ -43,6 +41,12 @@ public class Garage {
 //        if garage is empty print true
 //        else garage is NOT empty print false
     }
+
+    public void addVehicle(int v) {
+
+    }
+
+
 
 }
 
