@@ -20,16 +20,8 @@ public class Runner {
         System.out.println("Motorcycle is parked in " + myGarage.getGarageName());
         x.parked();
 
-//        List<Integer> arrayList = new ArrayList<>();
-//        int x =1;
-//        arrayList.add(x++);
-//        arrayList.add(x++);
-//        arrayList.add(x++);
-//        arrayList.add(x++);
-//
-//        for(Integer handle : arrayList) {
-//            System.out.println(handle);
-//        }
+
+
         System.out.println("---------------");
         System.out.println("APP END");
         //ENDS

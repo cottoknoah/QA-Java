@@ -46,6 +46,17 @@ public class Garage {
 
     }
 
+    //        List<Integer> arrayList = new ArrayList<>();
+//        int x =1;
+//        arrayList.add(x++);
+//        arrayList.add(x++);
+//        arrayList.add(x++);
+//        arrayList.add(x++);
+//
+//        for(Integer handle : arrayList) {
+//            System.out.println(handle);
+//        }
+
 
 
 }
