@@ -28,7 +28,7 @@ public class Garage {
 //    calculating a bill for each type of Vehicle in a different way,
 //    depending on the type of vehicle it is.
     public static void sortVehicle() {
-        Vehicle vehicle = new Vehicle();
+//        Vehicle vehicle = new Vehicle();
         for (int counter = 0; counter < 10; counter++) {
             System.out.println(counter);
         }
@@ -40,10 +40,17 @@ public class Garage {
     public void isEmpty(boolean isEmpty) {
 //        if garage is empty print true
 //        else garage is NOT empty print false
+        if (isEmpty) {
+            System.out.println("Garage has no vehicles.");
+        } else {
+            System.out.println("There are vehicles in the garage today.");
+        }
+
     }
 
     public void addVehicle(int v) {
-
+        //check if its equal so null
+        //initialize the list
     }
 
     //        List<Integer> arrayList = new ArrayList<>();
@@ -56,7 +63,11 @@ public class Garage {
 //        for(Integer handle : arrayList) {
 //            System.out.println(handle);
 //        }
-
+    public void removeVehicle(int v) {
+        //check if its equal so null
+        //initialize the list
+        // remove by ID (index in the array)
+    }
 
 
 }
