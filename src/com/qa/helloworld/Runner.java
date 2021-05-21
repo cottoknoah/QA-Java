@@ -16,11 +16,10 @@ public class Runner {
 //        List<String> vehicle = new ArrayList<>();
 //        Vehicle vehicle = new ArrayList<Vehicle>();
 
-
         Vehicle x = new Motorcycle("Motorcyle", "M", 0, 0, 1, 1);
         System.out.println("Motorcycle is parked in " + myGarage.getGarageName());
         x.parked();
-
+//        x.
 
 //        List<Integer> arrayList = new ArrayList<>();
 //        int x =1;

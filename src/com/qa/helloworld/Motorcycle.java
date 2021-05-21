@@ -1,6 +1,6 @@
 package com.qa.helloworld;
 
-public class Motorcycle extends Vehicle {
+public class Motorcycle extends Vehicle implements Movement {
 
     private boolean hasInsurance;
 

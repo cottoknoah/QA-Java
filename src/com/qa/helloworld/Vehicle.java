@@ -1,6 +1,6 @@
 package com.qa.helloworld;
 
-public class Vehicle {
+public abstract class Vehicle implements Movement {
 
     private String vehicleType;
     private String model;
@@ -45,4 +45,13 @@ public class Vehicle {
     }
 
 
+    @Override
+    public double getSpeed(double s) {
+        return 0;
+    }
+
+    @Override
+    public boolean isParked(boolean b) {
+        return false;
+    }
 }
