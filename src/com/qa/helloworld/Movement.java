@@ -7,6 +7,4 @@ public interface Movement {
 
 
 }
-
-for(Bird ghabke : ecbkisyre)
-{handlle.speak}
+//
