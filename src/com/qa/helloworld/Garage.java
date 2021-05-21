@@ -40,6 +40,8 @@ public class Garage {
 //    empty the garage
 
     public void isEmpty(boolean isEmpty) {
+//        if garage is empty print true
+//        else garage is NOT empty print false
     }
 
 }

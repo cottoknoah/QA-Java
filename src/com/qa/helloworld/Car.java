@@ -1,7 +1,7 @@
 package com.qa.helloworld;
 
 //subclass/child class of Car parent class
-public class Car extends Vehicle{
+public class Car extends Vehicle implements Movement{
     private int seats;
     private String color;
 
@@ -18,6 +18,27 @@ public class Car extends Vehicle{
 
     public String getColor() {
         return color;
+    }
+
+    @Override
+    public void changeGear(int newGear){
+        gear = newGear;
+    }
+
+    @Override
+    public void speedUp(int increment){
+        speed = speed + increment;
+    }
+
+
+    @Override
+    public void applyBrakes(int decrement){
+        speed = speed - decrement;
+    }
+
+    public void printStatement() {
+        System.out.println("speed: " + speed
+                + " gear: " + gear);
     }
 
 

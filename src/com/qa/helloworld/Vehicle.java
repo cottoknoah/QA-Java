@@ -20,7 +20,7 @@ public class Vehicle {
        }
 
 
-       public void driving() {
+    public void driving() {
         this.isDriving = true;
     }
 
