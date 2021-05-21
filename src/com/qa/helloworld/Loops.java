@@ -11,7 +11,7 @@ public class Loops {
             if (counter == 2) {
                 continue; // skips the current code block in the loop
             }
-            if (counter == 8) {
+            if (counter == 6) {
                 break;
             }
             System.out.println(counter);
@@ -42,7 +42,7 @@ public class Loops {
     public static void whileStatement() {
         // execution stops when either;
         // - the boolean condition changes to false
-        // - the conditional statement (boolean expression) changes to false
+        // - the conditional statement changes to false
         int parkingLotCapacity = 500;
         int parkedCars = 450;
         boolean notFull = true;
@@ -55,11 +55,6 @@ public class Loops {
                 notFull = false;
             }
         }
-        // Functionally equivalent
-//      while (parkedCars <= parkingLotCapacity) {
-//          parkedCars++;
-//          System.out.println(parkedCars);
-//      }
         System.out.println("Execution resumed outside of loop");
     }
 
