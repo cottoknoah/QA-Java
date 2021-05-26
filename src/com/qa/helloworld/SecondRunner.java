@@ -36,7 +36,7 @@ public class SecondRunner {
                 output = num1 / num2;
                 break;
             default:
-                System.out.printf("You have entered wrong operator");
+                System.out.printf("Wrong operator chosen");
                 return;
         }
 
